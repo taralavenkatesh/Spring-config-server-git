@@ -1,0 +1,30 @@
+---
+server:
+  port: 8888
+security:
+  basic:
+    enabled: true
+  user:
+    name: venkat
+    password: venkat
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/taralavenkatesh/spring-cloudconfig
+          username: taralavenkatesh
+          password: Temp1234
+          search-paths:
+          - 'station*'
+          repos:
+             local:
+                pattern: '*/perf'
+                uri: https://github.com/taralavenkatesh/springcloud-cofig-perf 
+                # alt
+                search-paths:
+                 - 'station*'    
+             
+           
+            
+            
