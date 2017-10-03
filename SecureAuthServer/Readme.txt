@@ -19,3 +19,5 @@ password
 http://localhost:6000/services/oauth/token
 
 --> Instead of getting the external authorization we are configuring our own server for authorization. we can integrate ldap in this server 
+
+https://www.draw.io/#Htaralavenkatesh%2FSpring-config-server-git%2Fmaster%2FUntitled%20Diagram.xml
